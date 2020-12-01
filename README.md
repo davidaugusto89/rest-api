@@ -73,7 +73,7 @@ Copiar/extrair os arquivos para que sejam acessados na url `http://localhost/res
 **DELETE** `http://localhost/rest-api/clientes/{id}` - remove o cadastro do cliente com base no {id}.
 
 
-### Tabela cliente-endereco
+### Tabela cliente_endereco
 **GET** `http://localhost/rest-api/cliente-enderecos/{id_cliente}` - lista todos os endereços de um cliente com base no {id_cliente}.
 
 **POST** `http://localhost/rest-api/cliente-enderecos/` - cadastra um novo endereço do cliente.
