@@ -81,3 +81,9 @@ Copiar/extrair os arquivos para que sejam acessados na url `http://localhost/res
 **POST** `http://localhost/rest-api/cliente-enderecos/{id}` - atualiza o cadastro do endereço do cliente com base no {id}.
 
 **DELETE** `http://localhost/rest-api/cliente-enderecos/{id}` - remove o cadastro de endereço do cliente com base no {id}.
+
+
+## End-point [externo]
+Para consulta de CEP, está sendo utilizado o end-point do projeto [BrasilAPI](https://github.com/BrasilAPI/BrasilAPI).
+
+**GET**  `https://brasilapi.com.br/api/cep/v1/`**[cep]**
