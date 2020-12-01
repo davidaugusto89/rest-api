@@ -47,3 +47,25 @@ Após criar o banco de dados, executar os comandos SQL do arquivo **banco_de_dad
 
     INSERT INTO `login` (`id`, `nome`, `email`, `senha`) VALUES 
 	(1, 'David', 'davidakhaddad@gmail.com', '81dc9bdb52d04dc20036dbd8313ed055');
+
+## Back-End - PHP
+Back-end desenvolvido sem framework, utilizando somente classes e objeto PDO  de conexão ao banco de dados referente ao PHP >= 7.
+
+Copiar/extrair os arquivos para que sejam acessados na url `http://localhost/rest-api/` .
+
+## End-points
+### Tabela login
+**POST** `http://localhost/rest-api/login/`	- verifica o e-mail e senha no banco de dados, se são válidos.
+
+### Tabela cliente
+**GET** `http://localhost/rest-api/clientes/` - lista todos os clientes cadastrados.
+**GET** `http://localhost/rest-api/clientes/{id}` - busca as informações do cliente com base no {id}.
+**POST** `http://localhost/rest-api/clientes/` - cadastra um novo cliente.
+**POST** `http://localhost/rest-api/clientes/{id}` - atualiza o cadastro do cliente com base no {id}.
+**DELETE** `http://localhost/rest-api/clientes/{id}` - remove o cadastro do cliente com base no {id}.
+
+### Tabela cliente-endereco
+**GET** `http://localhost/rest-api/cliente-enderecos/{id_cliente}` - lista todos os endereços de um cliente com base no {id_cliente}.
+**POST** `http://localhost/rest-api/cliente-enderecos/` - cadastra um novo endereço do cliente.
+**POST** `http://localhost/rest-api/cliente-enderecos/{id}` - atualiza o cadastro do endereço do cliente com base no {id}.
+**DELETE** `http://localhost/rest-api/cliente-enderecos/{id}` - remove o cadastro de endereço do cliente com base no {id}.
