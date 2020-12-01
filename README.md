@@ -45,5 +45,4 @@ Após criar o banco de dados, executar os comandos SQL do arquivo **banco_de_dad
       PRIMARY KEY (`id`)
     ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
-    INSERT INTO `login` (`id`, `nome`, `email`, `senha`) VALUES
-	    (1, 'David', 'davidakhaddad@gmail.com', '81dc9bdb52d04dc20036dbd8313ed055');
+    INSERT INTO `login` (`id`, `nome`, `email`, `senha`) VALUES (1, 'David', 'davidakhaddad@gmail.com', '81dc9bdb52d04dc20036dbd8313ed055');
