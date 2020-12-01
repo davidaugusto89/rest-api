@@ -59,13 +59,20 @@ Copiar/extrair os arquivos para que sejam acessados na url `http://localhost/res
 
 ### Tabela cliente
 **GET** `http://localhost/rest-api/clientes/` - lista todos os clientes cadastrados.
+
 **GET** `http://localhost/rest-api/clientes/{id}` - busca as informações do cliente com base no {id}.
+
 **POST** `http://localhost/rest-api/clientes/` - cadastra um novo cliente.
+
 **POST** `http://localhost/rest-api/clientes/{id}` - atualiza o cadastro do cliente com base no {id}.
+
 **DELETE** `http://localhost/rest-api/clientes/{id}` - remove o cadastro do cliente com base no {id}.
 
 ### Tabela cliente-endereco
 **GET** `http://localhost/rest-api/cliente-enderecos/{id_cliente}` - lista todos os endereços de um cliente com base no {id_cliente}.
+
 **POST** `http://localhost/rest-api/cliente-enderecos/` - cadastra um novo endereço do cliente.
+
 **POST** `http://localhost/rest-api/cliente-enderecos/{id}` - atualiza o cadastro do endereço do cliente com base no {id}.
+
 **DELETE** `http://localhost/rest-api/cliente-enderecos/{id}` - remove o cadastro de endereço do cliente com base no {id}.
