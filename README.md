@@ -7,10 +7,10 @@ A seguir será detalhado as configurações para executar localmente o banco de 
 ## Banco de dados - MySQL
 O banco de dados deve ser criado localmente, com as seguintes configurações:
 
-    Host: 'localhost'
-	Usuário: 'root'
-	Senha: '' (não informar)
-	Nome do banco de dados: kabum-teste
+    Host = 'localhost'
+	Usuário = 'root'
+	Senha = '' (não informar)
+	Nome do banco de dados = kabum-teste
 	
 Após criar o banco de dados, executar os comandos SQL do arquivo **banco_de_dados.sql**, ou copiar os comandos abaixo:
 	
