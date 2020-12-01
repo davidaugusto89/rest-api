@@ -57,6 +57,7 @@ Copiar/extrair os arquivos para que sejam acessados na url `http://localhost/res
 
 
 ## End-points
+
 ### Tabela login
 **POST** `http://localhost/rest-api/login/`	- verifica o e-mail e senha no banco de dados, se são válidos.
 
