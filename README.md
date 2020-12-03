@@ -5,12 +5,11 @@ A seguir será detalhado as configurações para executar localmente o banco de 
 
 ## Guia de Instalação
 
-Para instalar a aplicação deve ser executados os seguintes comandos no terminal, no diretório desejado.
+Para instalar a aplicação, deve ser executados os seguintes comandos no terminal do diretório publico do servidor PHP (www ou public_html).
 
 ```sh
 git clone https://github.com/davidaugusto89/rest-api rest-api
 cd rest-api
-php -S localhost:80
 ```
 
 ## Banco de dados - MySQL
@@ -18,7 +17,7 @@ O banco de dados deve ser criado localmente, com as seguintes configurações:
 
     Host = 'localhost'
 	Usuário = 'root'
-	Senha = '' (não informar)
+	Senha = ''
 	Nome do banco de dados = kabum-teste
 	
 Após criar o banco de dados, executar os comandos SQL do arquivo **banco_de_dados.sql**, ou copiar os comandos abaixo:
