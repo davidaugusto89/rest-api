@@ -5,7 +5,7 @@ A seguir será detalhado as configurações para executar localmente o banco de 
 
 ## Requisitos básicos
 
-PHP >= 7.3
+PHP >= 7
 
 MySQL
 
