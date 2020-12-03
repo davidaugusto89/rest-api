@@ -3,6 +3,16 @@ REST API para manipular as tabelas do banco de dados (cliente, cliente_endereco 
 
 A seguir será detalhado as configurações para executar localmente o banco de dados e a aplicação back-end.
 
+## Requisitos básicos
+
+PHP >= 7.3
+
+MySQL
+
+Composer
+
+Git
+
 ## Guia de Instalação
 
 Para instalar a aplicação, deve ser executados os seguintes comandos no terminal do diretório publico do servidor PHP (www ou public_html).
