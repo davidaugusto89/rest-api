@@ -10,7 +10,7 @@ Para instalar a aplicação deve ser executados os seguintes comandos no termina
 ```sh
 git clone https://github.com/davidaugusto89/rest-api rest-api
 cd rest-api
-php -S localhost
+php -S localhost:80
 ```
 
 ## Banco de dados - MySQL
