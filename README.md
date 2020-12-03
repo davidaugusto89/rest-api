@@ -3,6 +3,15 @@ REST API para manipular as tabelas do banco de dados (cliente, cliente_endereco 
 
 A seguir será detalhado as configurações para executar localmente o banco de dados e a aplicação back-end.
 
+## Guia de Instalação
+
+Para instalar a aplicação deve ser executados os seguintes comandos no terminal, no diretório desejado.
+
+```sh
+git clone https://github.com/davidaugusto89/rest-api rest-api
+cd rest-api
+php -S localhost
+```
 
 ## Banco de dados - MySQL
 O banco de dados deve ser criado localmente, com as seguintes configurações:
@@ -52,8 +61,6 @@ Após criar o banco de dados, executar os comandos SQL do arquivo **banco_de_dad
 
 ## Back-End - PHP
 Back-end desenvolvido sem framework, utilizando somente classes e objeto PDO  de conexão ao banco de dados referente ao PHP >= 7.
-
-Copiar/extrair os arquivos para que sejam acessados na url `http://localhost/rest-api/` .
 
 
 ## End-points
